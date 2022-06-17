@@ -1,8 +1,9 @@
 # Professional Portfolio 
 ## Description
-#### This portfolio contains links in the header to corresponding areas of the webpage.  Each image is linked to the deployed site of the work, if there is one.  There are some sites that are "coming soon" so they do not have any links to follow.  
+This is my second challenge where I have created a portfolio to show some of the work I have completed so far during this class.  I have included links to different elements of the page and links to completed work as well.
 ## Screenshot
-<img width="1433" alt="Screen Shot 2022-06-16 at 10 53 56 PM" src="https://user-images.githubusercontent.com/103011054/174215660-46957dd9-a976-4564-99c3-660ffe3e7619.png">
+<img width="1428" alt="Screen Shot 2022-06-16 at 11 10 02 PM" src="https://user-images.githubusercontent.com/103011054/174217280-7258df60-a62b-4671-891c-b825aebc5776.png">
 
 ## Link
-#### Link to deployed application
+Link to deployed application
+https://jessicam04.github.io/professionalPortfolio/
