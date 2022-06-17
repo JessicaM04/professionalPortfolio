@@ -1,1 +1,230 @@
+:root {
+  --primaryColor: rgb(57, 172, 204);
+
+} 
+header {
+  padding: 20px 35px;
+  background-color: darkblue;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  top: 0;
+  font-size: 25px;
+}
+
+header section h1 {
+  background-color: var(--primaryColor);
+  color: darkblue;
+  text-align: right;
+  position: absolute;
+  left: 0;
+}
+
+header nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+
+header nav ul li a {
+  color: var(--primaryColor)ua;
+  text-decoration: underline;
+  padding: 10px 15px;
+  font-weight: lighter;
+  font-size: 1.55vw;
+}
+
+.hover {
+  display: inline-block;
+  vertical-align: middle;
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  backface-visibility: hidden;
+  position: relative;
+  transition-property: color;
+  transition-duration: 0.3s;
+  background: darkblue;
+  padding: 8px 15px;
+  color: var(--primaryColor);
+  text-decoration: underline;
+}
+
+.hover:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: var(--primaryColor);
+  transform: scaleY(0);
+  transform-origin: 50% 100%;
+  transition-property: transform;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-out;
+}
+
+.hover:hover, .hover:focus, .hover:active {
+  color: darkblue;
+  text-decoration: none;
+}
+
+.hover:hover:before, .hover:focus:before, .hover:active:before {
+  -webkit-transform: scaleY(1);
+  transform: scaleY(1);
+}
+
+img:hover {
+  opacity: .6;
+} 
+
+body {
+  background-color: ghostwhite;
+}
+.subtitle {  
+  color: darkblue;
+  position: absolute;
+  right: 50px;
+  background-color: var(--primaryColor);
+}
+
+.hero { 
+    background-image: url("../images/portfolioBackground.png");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    background-attachment: fixed;
+    background-position: 80%;
+    height: 200px;
+  }
+ 
+.myAvatar {
+  width: 200px;
+  left: 10px;
+  position: absolute;
+}
+
+.about {
+  display: flex;
+  margin-left: 105px;
+}
+
+.about p {
+  margin: 40px;
+  padding: 25px;
+}
+.about h1,.work h1, .Contact-Me {
+  /* border-style: none solid none; */
+  /* width: 130px; */
+  /* text-align: right; */
+  border-right: 2px solid black;
+  width: max-content;
+  padding-right: 20px;
+  align-items: center;
+  text-align: right;
+  color: cornflowerblue;
+}
+
+.info {
+  background-color: whitesmoke;
+}
+
+.step {
+  margin: 50px auto;
+  padding-bottom: 50px;
+  width: 80%;
+  border-bottom: 1px solid #39a6b2;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  /* justify-content: */
+} 
+
+.big-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+} 
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.big-image {
+  height: 500px;
+  width: 1100px;
+  border: 5px solid var(--primaryColor);
+}
+
+.subimage {
+  height:270px;
+  width: 500px;
+  border: 5px solid var(--primaryColor);
+  background-color: black;
+}
+
+.workHero { 
+  margin: 20px 20px 20px 30px;
+}
+
+.big-tile {
+  position: relative;
+  top: 500px;
+  left: 130;
+  background-color: var(--primaryColor);
+  height: 40px;
+  width: max-content;
+  color: white;
+}
+
+.tile {
+  position: relative;
+  top: 200px;
+  left: 125px;
+  background-color: var(--primaryColor);
+  height: 40px;
+  width: max-content;
+  color: white;
+} 
+
+footer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.main-Contact h1 ul li {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+
+.Contact-Me {
+  border-right: 2px solid black;
+  margin: 60px;
+  padding: 20px;
+  
+}
+
+.contact-info {
+    padding: 65px;
+    text-decoration: underline;
+    display: flex;
+    flex-wrap: wrap;
+    color: black;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    
+}
+
+
+
 
