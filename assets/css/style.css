@@ -17,7 +17,7 @@ header section h1 {
   color: darkblue;
   text-align: right;
   position: absolute;
-  left: 0;
+  left: 10px;
 }
 
 header nav ul {
